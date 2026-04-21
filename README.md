@@ -29,7 +29,7 @@ ___
 ```bash
 # Clonar el repositorio
 
-git clone https://
+git clone https://github.com/fhdzleon/vortex404back.git
 
 # Instalar dependencias
 npm install
@@ -81,4 +81,4 @@ http://localhost:3000/api-docs
 ```
 
 
-Esta API se encuentra en desarrollo por SkullDev81 con licencia MIT
+Esta API se encuentra en desarrollo en tiempos libres por SkullDev81 con licencia MIT
