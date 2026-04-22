@@ -6,5 +6,5 @@ export interface CreateUserInput {
   city: string;
   birthday: Date;
   passwordHash: string;
-  avatar?: string;
+  avatar?: string | undefined;
 }

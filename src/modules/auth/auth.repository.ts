@@ -24,6 +24,7 @@ export const createUser = async (input: CreateUserInput) => {
   return prisma.user.create({
     data: {
       ...input,
+      avatar: input.avatar || null,
       progress: {
         create: { currentLevel: 1 },
       },
